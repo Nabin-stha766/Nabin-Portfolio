@@ -1,6 +1,13 @@
 @media screen and (max-width:1200px){
-    #desktop-nav{
+    .nav-links{
         display:none;   
+    }
+    .logo{
+        display:none;
+    }
+
+    .mode{
+        display:none;
     }
    
     #profile{
