@@ -1,0 +1,111 @@
+@media screen and (max-width:1200px){
+    .nav-links{
+        display:none;   
+    }
+   
+    #profile{
+        display: block;
+    }
+    .pic-container{
+        text-align: center;
+        margin-bottom: 2rem;
+    }
+  .pic-container  img{
+             width:250px;
+             height: 250px;
+             
+    }
+
+    section{
+        margin:0 0.8rem;
+        height: 55vh;
+        min-height: fit-content;
+    }
+    .text-section{
+        margin-bottom: 0.5rem;
+    }
+   .text-1{
+    font-size:1rem;
+   }
+   .title{
+    font-size: 1.5rem;
+   }
+   .text-2{
+    font-size: 1.25rem;
+    
+   }
+   .btn{
+    padding:0.25rem 1rem;
+   }
+   .title-2{
+    margin-bottom: 0.5rem;
+   }
+  #about-me-section{
+    display: flex;
+    flex-direction: column;
+  }
+  .about-me-section{
+    display: block;
+    justify-content: center; 
+}
+.img-section{
+    text-align: center;
+    margin-bottom: 1rem;
+}
+.img-section img{
+   width: 250px;
+   height: 300px;
+}
+.about-me-card-container{
+    display: block;
+}
+.about-me-p{
+    padding: 0 1rem;
+    display: flex;
+    flex: wrap;
+}
+.about-experience-container{
+    display: block;
+}
+.experience-details-container{
+    padding:0 2rem;
+}
+.exp-image-container{
+    display: none;
+}
+.article-container{
+    display: block;
+    margin-left: 1rem;
+}
+.projects-section{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+.project-card{
+    margin: 0 2rem;
+}
+.contact-section{
+    display: block;
+}
+.contact-left-section{
+    margin:0.5rem 1.5rem;
+}
+.contact-right-section{
+    margin:0 1.5rem;
+    align-items: center;
+}
+.footer-nav-links{
+    display: none;
+}
+
+}
+
+
+
+@media  screen and (max-width:1400){
+     #profile{
+        
+        
+     }
+}
+
